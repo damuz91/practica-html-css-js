@@ -15,9 +15,9 @@ function agregarArticulo(){
   var container = document.getElementsByClassName('container')[0];
   var nuevoArticulo = document.createElement('article');
   var titulo = document.createElement('h1');
-  titulo.class = "titulo";
+  titulo.className = "titulo";
   var parrafo = document.createElement('p');
-  parrafo.class = "cuerpo";
+  parrafo.className = "cuerpo";
   var textoTitulo = document.createTextNode('Este es un nuevo articulo ' + random);
   var textoParrafo = document.createTextNode('Parrafo ' + random);
   nuevoArticulo.appendChild(titulo);
